@@ -11,3 +11,5 @@ chmod +x dependences.sh
 
 
 ### Goodbye :D
+
+Bye friend, nice to meet you :).
