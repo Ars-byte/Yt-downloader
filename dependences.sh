@@ -1,24 +1,24 @@
 #!/bin/bash
 
 instalar_yt_dlp() {
-    echo "Instalando yt_dlp..."
+    echo "Installing yt_dlp..."
     pip install yt_dlp --break-system-packages
     if [ $? -eq 0 ]; then
-        echo "¡yt_dlp se ha instalado correctamente!"
+        echo "¡yt_dlp has been installed correctly"
     else
-        echo "Error al instalar yt_dlp."
+        echo "Error"
         exit 1
     fi
 }
 
 verificar_tkinter() {
-    echo "Verificando si tkinter está instalado..."
+    echo "Checking if tkinter is installed..."
     python3 -c "import tkinter" 2>/dev/null
     if [ $? -eq 0 ]; then
-        echo "tkinter ya está instalado."
+        echo "Tkinter is already installed"
     else
-        echo "tkinter no está instalado."
-        echo "Si estás en Linux, instálalo con: sudo apt-get install python3-tk"
+        echo "tkinter is not installed"
+        echo "If you're on Linux, install it with: sudo apt-get install python3-tk"
     fi
 }
 
