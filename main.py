@@ -14,7 +14,7 @@ ttk.Style().configure('Etiqueta.TLabel', font=('Arial', 12), foreground='black',
 ttk.Style().configure('Entry.TEntry', font=('Arial', 12), foreground='black', background='gray')
 ttk.Style().configure('Boton.TButton', font=('Arial', 12), foreground='red', background='gray')
 
-etiqueta_url = ttk.Label(ventana, text="Ingrese la URL del video (solo youtube):", style='Etiqueta.TLabel')
+etiqueta_url = ttk.Label(ventana, text="Enter the URL (Only Youtube):", style='Etiqueta.TLabel')
 etiqueta_url.pack(pady=10)
 
 entrada_url = ttk.Entry(ventana, width=30, style='Entry.TEntry')
