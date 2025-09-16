@@ -7,7 +7,6 @@ It's a YouTube video downloader made in Python... To use it, you'll need the fol
 
 pip install -r dependences.txt
 
-sudo apt-get install python3-tk
 
 ### Goodbye :D
 
